@@ -1,3 +1,3 @@
 var li = document.createElement('li');
 li:textContent = 'アイテム';
-ducument.getElementById('list').appendChild(li);
+document.getElementById('list').appendChild(li);
