@@ -39,6 +39,10 @@ for(key in player){
   document.getElementById('object').appendChild(li);
 }
 
+  document.getElementById('form').onsubmit = function(){
+    window.prompt('押されました！');
+  };
+
 
 for(var i = 1; i < 100; i++){
   var li = document.createElement('li');
