@@ -40,7 +40,7 @@ for(key in player){
 }
 
   document.getElementById('form').onsubmit = function(){
-    window.prompt(document.getElementById('form').word.value);
+    window.alert(document.getElementById('form').word.value);
   };
 
 for(var i = 1; i < 100; i++){
