@@ -40,9 +40,8 @@ for(key in player){
 }
 
   document.getElementById('form').onsubmit = function(){
-    window.alert('押されました！');
+    window.prompt(document.getElementById('form').word.value);
   };
-
 
 for(var i = 1; i < 100; i++){
   var li = document.createElement('li');
