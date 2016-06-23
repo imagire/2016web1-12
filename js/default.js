@@ -15,7 +15,7 @@ while(0 < HP){
 }
 
 var include_tax = function(price){
-  return price + 0.08 * price;
+  return Math.floor(price + 0.08 * price);
 }
 
 for(var i = 1; i < 10; i++){
