@@ -40,7 +40,7 @@ for(key in player){
 }
 
   document.getElementById('form').onsubmit = function(){
-    window.prompt('押されました！');
+    window.alert('押されました！');
   };
 
 
