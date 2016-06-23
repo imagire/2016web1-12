@@ -33,9 +33,11 @@ for(i in constellatio){
 }
 
 var player = {name:'ほげほげ', age:20, blood:'A'};
-var li = document.createElement('li');
-li.textContent = player;
-document.getElementById('object').appendChild(li);
+for(i in player){
+  var li = document.createElement('li');
+  li.textContent = player[i];
+  document.getElementById('object').appendChild(li);
+}
 
 
 for(var i = 1; i < 100; i++){
