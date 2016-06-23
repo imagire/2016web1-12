@@ -37,6 +37,6 @@ for(var i = 1; i < 100; i++){
   }else {
     li.textContent = i;
   }
-  document.getElementById('list').appendChild(li);
+  document.getElementById('fizzbuzz').appendChild(li);
 }
 
