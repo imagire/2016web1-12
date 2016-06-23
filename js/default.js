@@ -25,10 +25,10 @@ for(var i = 1; i < 10; i++){
   document.getElementById('price').appendChild(li);
 }
 
-var constellatio = ['牡羊座','牡牛座','双子座','蟹座','獅子座','乙女座','天秤座','蠍座','射手座','山羊座','水瓶座','魚座'];
-for(var i = 0; i < constellatio.length; i++){
+var constellatios = ['牡羊座','牡牛座','双子座','蟹座','獅子座','乙女座','天秤座','蠍座','射手座','山羊座','水瓶座','魚座'];
+for(constellatio in constellatios){
   var li = document.createElement('li');
-  li.textContent = constellatio[i];
+  li.textContent = constellatio;
   document.getElementById('array').appendChild(li);
 }
 
